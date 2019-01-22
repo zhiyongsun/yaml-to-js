@@ -9,7 +9,9 @@ try {
   // let str = yaml.safeDump(doc);
   console.log(doc);
   fs.writeFile('./dist/index.js', JSON.stringify(doc), function (err) {
-    console.log('err', err);
+    if (err) {
+      console.log('err', err);
+    }
   })
 } catch (e) {
   console.log(e);
