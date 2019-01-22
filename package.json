@@ -1,0 +1,27 @@
+{
+  "name": "yaml-js",
+  "version": "1.0.0",
+  "description": "yaml to js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhiyongsun/yaml-to-js.git"
+  },
+  "keywords": [
+    "yaml",
+    "to",
+    "js"
+  ],
+  "author": "zhiyong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhiyongsun/yaml-to-js/issues"
+  },
+  "homepage": "https://github.com/zhiyongsun/yaml-to-js#readme",
+  "dependencies": {
+    "js-yaml": "^3.12.1"
+  }
+}
